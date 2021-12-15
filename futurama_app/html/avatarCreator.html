@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="/js/creatorMenu.js"></script>
+    <title>Avatar Creator</title>
+  </head>
+  <body>
+    <div class="title">
+        <img id="titleText" src="/resources/titleLogo.png" alt="">
+    </div>
+
+
+    <div class="text">
+
+<div id=travelOption>
+        <img src="/resources/buttons/eyesButton.png" class="item"  id="showMenuEyes"></img>
+    </div>
+
+    <div id=travelOption>
+        <img src="/resources/buttons/hairButton.png" class="item" id="showMenuHair"></img>
+    </div>
+
+
+    <div id=travelOption>
+        <img src="/resources/buttons/mouthButton.png" class="item"  id="showMenuMouth"></img>
+    </div>
+
+    <div id=travelOption>
+        <img src="/resources/buttons/bodyButton.png" class="item"  id="showMenuBody"></img>
+    </div>
+
+    <div id=travelOption>
+        <img src="/resources/buttons/armsButton.png" class="item"  id="showMenuArms"></img>
+    </div>
+
+    <div id=travelOption>
+        <img src="/resources/buttons/legsButton.png" class="item"  id="showMenuLegs"></img>
+    </div>
+
+    </div>
+
+   <div class="drawCharacter">    
+
+        <div class="createCharacter">
+             <div class="hairSkeleton">
+                 <img class="hairPicture" id="skelHair" src="/resources/skeleton/forehead.png">
+
+                 <img  class="hairPicture" id="hair1" src="/resources/Head/hair/hair1.png">
+                 <img  class="hairPicture" id="hair2" src="/resources/Head/hair/hair2.png">
+                 <img  class="hairPicture" id="hair3" src="/resources/Head/hair/hair3.png">
+                 <img  class="hairPicture" id="hair4" src="/resources/Head/hair/hair4.png">
+                 <img  class="hairPicture" id="hair5" src="/resources/Head/hair/hair5.png">
+             </div>
+             <div class="eyesSkeleton">
+                 <img class="eyesPicture" id="skelEyes" src="/resources/skeleton/eyes.png">
+
+                 <img  class="eyesPicture" id="eyes1" src="/resources/Head/eyes/eyes1.png">
+                 <img  class="eyesPicture" id="eyes2" src="/resources/Head/eyes/eyes2.png">
+                 <img  class="eyesPicture" id="eyes3" src="/resources/Head/eyes/eyes3.png">
+                 <img  class="eyesPicture" id="eyes4" src="/resources/Head/eyes/eyes4.png">
+                 <img  class="eyesPicture" id="eyes5" src="/resources/Head/eyes/eyes5.png">
+                 <img  class="eyesPicture" id="eyes6" src="/resources/Head/eyes/eyes6.png">
+             </div>
+             <div class="mouthSkeleton">
+                 <img class="mouthPicture" id="skelMouth" src="/resources/skeleton/mouth.png" alt="">
+
+                 <img  class="mouthPicture" id="mouth1" src="/resources/Head/mouth/mouth1.png">
+                 <img  class="mouthPicture" id="mouth2" src="/resources/Head/mouth/mouth2.png">
+                 <img  class="mouthPicture" id="mouth3" src="/resources/Head/mouth/mouth3.png">
+                 <img  class="mouthPicture" id="mouth4" src="/resources/Head/mouth/mouth4.png">
+                 <img  class="mouthPicture" id="mouth5" src="/resources/Head/mouth/mouth5.png">
+                 <img  class="mouthPicture" id="mouth6" src="/resources/Head/mouth/mouth6.png">
+
+             </div>
+             <div class="middleBody">
+                <div class="armRightSkeleton">
+                    <img class="rightArm" id="skelRightArm" src="/resources/skeleton/Model Right arm.png">
+                    <img  class="rightArm" id="rArm1" src="/resources/arms/bender right arm.png">
+                    <img  class="rightArm" id="rArm2" src="/resources/arms/leela right arm.png">
+                    <img  class="rightArm" id="rArm3" src="/resources/arms/roberto right arm.png">
+                    <img  class="rightArm" id="rArm4" src="/resources/arms/zoidberg right arm.png">
+                </div>
+                <div class="bodySkeleton">
+                    <img class="bodyPicture" id="skelBody" src="/resources/skeleton/Model chest.png">
+
+                    <img  class="bodyPicture" id="body1" src="/resources/body/body1.png">
+                    <img  class="bodyPicture" id="body2" src="/resources/body/body2.png">
+                    <img  class="bodyPicture" id="body3" src="/resources/body/body3.png">
+                    <img  class="bodyPicture" id="body4" src="/resources/body/body4.png">
+                </div>
+                <div class="armLeftSkeleton">
+                    <img class="leftArm" id="skelLeftArm" src="/resources/skeleton/Model left arm.png">
+
+                 <img  class="leftArm" id="lArm1" src="/resources/arms/bender left arm.png">
+                 <img  class="leftArm" id="lArm2" src="/resources/arms/leela left arm.png">
+                 <img  class="leftArm" id="lArm3" src="/resources/arms/roberto left arm.png">
+                 <img  class="leftArm" id="lArm4" src="/resources/arms/zoidberg left arm.png">
+                </div>
+            </div>
+             <div class="legSkeleton">
+                 <img class="legPicture" id="skelLeg" src="/resources/skeleton/Model legs.png">
+
+                 <img  class="leftArm" id="leg1" src="/resources/legs/legs1.png">
+                 <img  class="leftArm" id="leg2" src="/resources/legs/legs2.png">
+                 <img  class="leftArm" id="leg3" src="/resources/legs/legs3.png">
+                 <img  class="leftArm" id="leg4" src="/resources/legs/legs4.png">
+                 <img  class="leftArm" id="leg5" src="/resources/legs/legs5.png">
+             </div>
+                <div id=travelOption>
+                    <img id="reset" src="/resources/coollogo_com-59313749.png" class="item"  id="showMenuLegs"></img>
+                </div>
+        
+        </div>            
+
+        <div class="itemsToSelect" id="eyes">    
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected1" src="/resources/Head/eyes/eyes1.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected2" src="/resources/Head/eyes/eyes2.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected3" src="/resources/Head/eyes/eyes3.png">
+            </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected4" src="/resources/Head/eyes/eyes4.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected5" src="/resources/Head/eyes/eyes5.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="eyesSelected6" src="/resources/Head/eyes/eyes6.png">
+            </div>
+        </div>
+
+        <div class="itemsToSelect" id="hair">    
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="hairSelected1" src="/resources/Head/hair/hair1.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="hairSelected2" src="/resources/Head/hair/hair2.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="hairSelected3" src="/resources/Head/hair/hair3.png">
+        </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="hairSelected4" src="/resources/Head/hair/hair4.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="hairSelected5" src="/resources/Head/hair/hair5.png">
+            </div>
+    </div>
+
+
+        <div class="itemsToSelect" id="mouth">    
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected1" src="/resources/Head/mouth/mouth1.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected2" src="/resources/Head/mouth/mouth2.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected3" src="/resources/Head/mouth/mouth3.png">
+            </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected4" src="/resources/Head/mouth/mouth4.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected5" src="/resources/Head/mouth/mouth5.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="mouthSelected6" src="/resources/Head/mouth/mouth6.png">
+                </div>
+        </div>
+
+
+        <div class="itemsToSelect" id="body">    
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="bodySelected1" src="/resources/body/body1.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="bodySelected2" src="/resources/body/body2.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="bodySelected3" src="/resources/body/body3.png">
+        </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="bodySelected4" src="/resources/body/body4.png">
+            </div>
+    
+    </div>
+
+        <div class="itemsToSelect" id="arms">    
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected1" src="/resources/arms/bender left arm.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected2" src="/resources/arms/bender right arm.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected3"  src="/resources/arms/leela left arm.png">
+                </div>
+
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected4" src="/resources/arms/leela right arm.png">
+                </div>
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected5"  src="/resources/arms/roberto left arm.png">
+                </div>
+
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected6"  src="/resources/arms/roberto right arm.png">
+                </div>
+                   
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected7" src="/resources/arms/zoidberg left arm.png">
+                </div>
+                   
+                <div class="itemsCenas">
+                    <img class="imagesToSelect" id="armsSelected8" src="/resources/arms/zoidberg right arm.png">
+                </div>   
+        </div>
+
+
+        <div class="itemsToSelect" id="legs">    
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="legsSelected1" src="/resources/legs/legs1.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect"  id="legsSelected2" src="/resources/legs/legs2.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="legsSelected3" src="/resources/legs/legs3.png">
+            </div>
+
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="legsSelected4" src="/resources/legs/legs4.png">
+            </div>
+            <div class="itemsCenas">
+                <img class="imagesToSelect" id="legsSelected5" src="/resources/legs/legs5.png">
+            </div>
+ 
+    </div>
+ 
+    </div>
+
+    <div class="backBtn">
+        <a href="/html/landingPage.html"> <img id="home" src="/resources/coollogo_com-24324257.png" class="item" ></img></a>
+    </div>
+
+    <div id=travelOption>
+       <a href="/html/QueresPaga.html"> <img id="reset" src="/resources/coollogo_com-19411392.png" class="item"></a></img>
+    </div>
+  </body>
+</html>

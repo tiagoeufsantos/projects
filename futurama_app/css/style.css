@@ -1,0 +1,249 @@
+section {
+  display: flex;
+}
+
+
+body {
+  background-image: url("/resources/background5.jpeg");
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10%;
+  position: relative;
+  margin: auto;
+}
+
+#travelOption {
+  position: relative;
+
+}
+
+#travelOptionBanner {
+  width: 300px;
+  max-height: 200px;
+}
+
+.item {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  align-items: center;
+}
+
+.item:hover {
+  zoom: 130%;
+}
+
+video {
+  pointer-events: none;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+#titleText {
+  align-items: center;
+  margin: 0;
+  position: relative;
+  width: 70%;
+  height: 100%;
+}
+
+.drawCharacter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: auto;
+  height: 600px;
+  position: relative;
+}
+
+.createCharacter {
+  background-image: url("/resources/Screen Shot 2021-12-10 at 00.43.45.png");
+  display: flex;
+  width: 400px;
+  height: 480px;
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+}
+
+.itemsToSelect {
+  width: 700px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+  height: 90%;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+
+  overflow: scroll;
+  text-align: center;
+}
+
+.itemsCenas {
+  background-image: url("/resources/download.jpeg");
+  width: 250px;
+  height: 150px;
+  align-items: center;
+  margin: 5px;
+  border: 2px solid black;
+  position: relative;
+  text-align: center;
+}
+
+.imagesToSelect {
+  width: 150px;
+  height: 110px;
+  margin: 30px;
+  align-items: center;
+}
+
+.hairSkeleton {
+  display: flex; 
+  height: 40px;
+  width: 400px;
+
+  top: 20px;
+  margin: 0px;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+}
+
+.eyesSkeleton {
+  display: flex;
+  height: 25px;
+  width: 400px;
+  top: 60px; 
+
+  margin: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.mouthSkeleton {
+    display: flex;
+    height: 25px;
+    width: 400px;
+    top: 85px;
+
+    margin: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleBody{
+    display: flex;
+    height: 210px;
+    width: 400px;
+    top: 110px;
+
+    margin: 0;
+    position: absolute;
+    align-items: center;
+}
+
+.bodySkeleton {
+    display: flex;
+    height: 210px;
+    width: 40%;
+    position: relative;
+   
+}
+
+.armRightSkeleton { display: flex;
+    height: 210px;
+    width: 30%;
+   justify-content: flex-end;
+   align-items: flex-end;
+    position: relative;
+ 
+}
+
+.armLeftSkeleton {
+    display: flex;
+    height: 210px;
+    width: 30%;
+    position: relative;
+    align-items: flex-end;
+
+}
+
+.legSkeleton {
+    display: flex;
+    height: 160px;
+    width: 400px;
+    top: 320px;
+  
+    margin: 0;
+    position: absolute;
+  
+    justify-content: center;
+}
+
+.leftArm{
+
+   height: 160px;
+}
+
+.rightArm{
+  height: 160px;
+  
+}
+
+.bodyPicture{
+  width: 100%;
+  height: 210px;
+}
+
+.legPicture{
+  
+  width: 100px;
+  height: 160px;
+}
+
+.hairPicture{
+  width: 70px;
+  height: 100%;
+}
+
+.eyesPicture{
+  width: 70px;
+  height: 100%;
+}
+
+.mouthPicture{
+  width: 70px;
+  height: 100%;
+}
+
+.backBtn{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.item2{
+  right: 0px;
+}

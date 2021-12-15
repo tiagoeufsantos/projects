@@ -1,0 +1,15 @@
+body{
+    background-image: url("/resources/arms/frytakemymoney.jpeg");
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    justify-content: center;
+  }
